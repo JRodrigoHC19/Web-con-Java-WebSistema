@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+    <!DOCTYPE html>
 <html>
 <head>
     <link rel="stylesheet" href="webjars/bootstrap/5.1.0/css/bootstrap.min.css" type="text/css" />
@@ -29,7 +29,13 @@
                 <a href="/WebSistema/controladorPrincipal?accion=matriculaMostrarAlumnos&modo=Lista" class="list-group" target="derecha" >Crear Matricular</a>
                 <a href="/WebSistema/controladorPrincipal?accion=matriculaMostrarRegistros&modo=Lista" class="list-group" target="derecha" >Matricular Registradas</a>
             </div>
-            
+            <div class="alert alert-primary" role="alert">
+                <h4>Reportes</h4>
+                <a href="/WebSistema/reportes/listadoAlumnos.jsp" class="list-group" target="derecha" >Listar Alumnos</a>
+                <a href="/WebSistema/reportes/listadoCursos.jsp" class="list-group" target="derecha" >Listar Cursos</a>
+                <a href="/WebSistema/reportes/formularioListarAlumnosPorSexo.jsp" class="list-group" target="derecha" >Listar Alumnos por Sexo</a>
+                <a href="/WebSistema/reportes/formularioListarCursosPorNroDoc.jsp" class="list-group" target="derecha" >Listar Detalles de Matricula por Nro de Documento</a>
+            </div>            
         </div>
     </center>
 </body>

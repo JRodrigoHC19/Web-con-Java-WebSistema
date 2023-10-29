@@ -29,7 +29,7 @@
               
                 <c:forEach items="${arrMatriculas}" var="matricula">
                 <option value=<c:out value='${matricula.codigo}'/> >
-                   <c:out value='${matricula.correo_alumno}'/>
+                   <c:out value='${matricula.nro_doc}'/>
                 </option>
               </c:forEach>
                 
